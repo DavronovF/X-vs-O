@@ -53,3 +53,18 @@ function game(n){
         document.getElementById('win').style.display = 'block';       
     }
 }
+
+function cleaR(){
+    x=1;
+    k=[2,2,2,2,2,2,2,2,2];
+    document.getElementById('demo1').innerHTML = "";
+    document.getElementById('demo2').innerHTML = "";
+    document.getElementById('demo3').innerHTML = "";
+    document.getElementById('demo4').innerHTML = "";
+    document.getElementById('demo5').innerHTML = "";
+    document.getElementById('demo6').innerHTML = "";
+    document.getElementById('demo7').innerHTML = "";
+    document.getElementById('demo8').innerHTML = "";
+    document.getElementById('demo9').innerHTML = "";
+    document.getElementById('win').innerHTML = "";
+}
