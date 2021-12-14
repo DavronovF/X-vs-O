@@ -34,6 +34,7 @@ function game(n){
     (k[2]==k[4] && k[4]==k[6] && k[6]==1)){
         x=2;
         document.getElementById('win').style.display = 'block';
+        document.getElementById('container').style.opacity = '0.2';
     }else
     if( 
     (k[0]==k[1] && k[1]==k[2] && k[2]==0) || 
@@ -47,10 +48,12 @@ function game(n){
         x=2;
         document.getElementById('winh1').innerHTML = "O WIN"
         document.getElementById('win').style.display = 'block';
+        document.getElementById('container').style.opacity = '0.2';
     }else
     if(t==9){
         document.getElementById('winh1').innerHTML = "DRAW"
-        document.getElementById('win').style.display = 'block';       
+        document.getElementById('win').style.display = 'block';  
+        document.getElementById('container').style.opacity = '0.2';     
     }
 }
 
