@@ -5,19 +5,15 @@
     font-family: 'Courier New', Courier, monospace;
 }
 body{
-    background: url("img4.jpg");
+    background: url("img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     background-attachment: fixed;
     padding: 0;
     margin: 0;
-    animation: mymove 5s alternate-reverse;
 }
-@keyframes mymove{
-    from{background-image: url("img4.jpg");}
-    to{background-image: url("img1.jpg");}
-}
+
 .header-text{
     color: #fff;
     font-size: 100px;
@@ -25,6 +21,7 @@ body{
     margin:0px auto;
     margin-top: 30px;
     animation: color-white 5s alternate-reverse;
+    display: block;
 }
 @keyframes color-white{
     to{color: rgba(12, 2, 15, 0.281);}
